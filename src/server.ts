@@ -1,8 +1,8 @@
-import express from "express";
-import categoriesRoutes from "./routes/categories.routes";
+import express from 'express';
+import categoriesRoutes from './routes/categories.routes';
 
 const app = express();
 
-app.use("/categories", categoriesRoutes);
+app.use('/categories', categoriesRoutes);
 
-app.listen(6666, () => console.log("server is running on port 6666!"));
+app.listen(6666, () => console.log('server is running on port 6666!'));
